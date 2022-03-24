@@ -1,201 +1,203 @@
-Dropped strings... 2275
-Dropped Unamed column... 2275
-Dropped NA values... 2275
-Resetting index... 2275
-Dropped targets column... 2100
+Dataset preprocess ...
+
+Dropped strings... 2236
+Dropped Unamed column... 2236
+Dropped NA values... 2236
+Shuffling Resetting index... 2236
+Dropped targets column... 2064
+
 Dataset preprocess completed...
+
+Loading trained models...
 
 Accuracy...
 
-Logistic_Regression_Model           45.14%
-Gradient_Boosting_Classifier_Model  50.29%
-Decision_Tree_Classifier_Model      75.43%
-K_Neighbors_Classifier_Model        52.0%
-Random_Forest_Classifier_Model      77.71%
+Logistic_Regression_Model           53.49%
+Gradient_Boosting_Classifier_Model  51.74%
+Decision_Tree_Classifier_Model      74.42%
+K_Neighbors_Classifier_Model        48.84%
+Random_Forest_Classifier_Model      76.16%
 
 Prediction...
 
 Packet Time          Logistic_Regression          Gradient_Boosting_Classifier Decision_Tree_Classifier     K_Neighbors_Classifier       Random_Forest_Classifier     Actual Packet Protocol      
-0-61894.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-1-61891.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-2-61201.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-3-443.0              non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+0-443.0              quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+1-443.0              non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+2-443.0              non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+3-443.0              quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
 4-443.0              non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-5-443.0              quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+5-443.0              quic                         quic                         quic                         quic                         quic                         quic                        
 6-443.0              quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-7-443.0              non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
-8-443.0              non-quic                     non-quic                     quic                         quic                         quic                         non-quic                    
-9-5986.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-10-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
-11-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-12-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
-13-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-14-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-15-443.0             non-quic                     quic                         non-quic                     quic                         non-quic                     non-quic                    
+7-443.0              quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+8-443.0              quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+9-443.0              non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+10-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+11-443.0             quic                         quic                         quic                         quic                         quic                         quic                        
+12-443.0             non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
+13-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+14-59194.0           non-quic                     non-quic                     quic                         non-quic                     quic                         non-quic                    
+15-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
 16-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-17-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-18-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-19-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+17-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+18-443.0             non-quic                     quic                         quic                         quic                         quic                         quic                        
+19-443.0             quic                         quic                         quic                         quic                         quic                         quic                        
 20-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-21-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-22-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-23-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+21-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+22-443.0             non-quic                     quic                         quic                         quic                         quic                         quic                        
+23-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
 24-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-25-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-26-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-27-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-28-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-29-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-30-443.0             non-quic                     quic                         quic                         non-quic                     quic                         non-quic                    
-31-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+25-53.0              non-quic                     quic                         quic                         non-quic                     quic                         non-quic                    
+26-443.0             non-quic                     quic                         quic                         non-quic                     quic                         quic                        
+27-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+28-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+29-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+30-64039.0           non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+31-443.0             non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
 32-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-33-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-34-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-35-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-36-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-37-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-38-80.0              non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-39-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-40-443.0             non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
-41-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-42-443.0             non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
-43-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-44-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+33-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+34-19305.0           quic                         non-quic                     non-quic                     non-quic                     quic                         non-quic                    
+35-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+36-53.0              non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+37-443.0             quic                         quic                         quic                         quic                         non-quic                     non-quic                    
+38-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+39-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+40-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+41-5986.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+42-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+43-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+44-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
 45-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-46-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-47-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-48-443.0             non-quic                     quic                         non-quic                     quic                         non-quic                     non-quic                    
-49-443.0             non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
-50-5228.0            non-quic                     non-quic                     quic                         non-quic                     non-quic                     non-quic                    
-51-443.0             quic                         quic                         quic                         non-quic                     non-quic                     non-quic                    
-52-443.0             non-quic                     quic                         quic                         non-quic                     quic                         non-quic                    
-53-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-54-443.0             non-quic                     quic                         quic                         quic                         non-quic                     non-quic                    
-55-443.0             quic                         quic                         quic                         non-quic                     quic                         non-quic                    
-56-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-57-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-58-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-59-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+46-57220.0           non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+47-443.0             quic                         quic                         quic                         quic                         quic                         quic                        
+48-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+49-443.0             quic                         quic                         quic                         quic                         quic                         quic                        
+50-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+51-443.0             quic                         quic                         quic                         quic                         quic                         quic                        
+52-443.0             non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
+53-53.0              non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+54-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+55-443.0             quic                         quic                         non-quic                     non-quic                     quic                         non-quic                    
+56-443.0             non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
+57-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+58-443.0             quic                         quic                         non-quic                     quic                         quic                         quic                        
+59-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
 60-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-61-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-62-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-63-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-64-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-65-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-66-53.0              non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
-67-53.0              quic                         quic                         non-quic                     quic                         quic                         non-quic                    
-68-443.0             quic                         quic                         quic                         non-quic                     non-quic                     non-quic                    
-69-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+61-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+62-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+63-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+64-53.0              non-quic                     quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+65-443.0             non-quic                     quic                         quic                         quic                         quic                         quic                        
+66-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+67-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+68-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+69-63032.0           non-quic                     non-quic                     quic                         non-quic                     quic                         non-quic                    
 70-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-71-53.0              non-quic                     non-quic                     quic                         non-quic                     quic                         non-quic                    
-72-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-73-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-74-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-75-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-76-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-77-53.0              non-quic                     non-quic                     quic                         non-quic                     quic                         non-quic                    
-78-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-79-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+71-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+72-53.0              quic                         non-quic                     quic                         quic                         quic                         non-quic                    
+73-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+74-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+75-443.0             non-quic                     non-quic                     non-quic                     quic                         quic                         non-quic                    
+76-443.0             non-quic                     quic                         quic                         non-quic                     quic                         non-quic                    
+77-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+78-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+79-57025.0           non-quic                     non-quic                     quic                         non-quic                     non-quic                     non-quic                    
 80-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-81-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-82-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-83-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-84-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-85-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-86-53.0              non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
-87-53.0              quic                         non-quic                     non-quic                     non-quic                     quic                         non-quic                    
-88-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+81-443.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+82-1900.0            non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+83-443.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
+84-53.0              quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+85-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+86-443.0             non-quic                     quic                         quic                         quic                         quic                         quic                        
+87-443.0             quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+88-443.0             non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
 89-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
 90-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-91-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-92-443.0             quic                         quic                         quic                         quic                         non-quic                     non-quic                    
-93-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+91-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+92-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+93-443.0             quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
 94-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-95-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-96-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-97-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-98-53.0              non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
-99-53.0              quic                         non-quic                     quic                         non-quic                     quic                         non-quic                    
-100-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-101-57621.0          non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+95-443.0             non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+96-443.0             non-quic                     quic                         non-quic                     non-quic                     quic                         non-quic                    
+97-443.0             non-quic                     quic                         quic                         non-quic                     quic                         non-quic                    
+98-5228.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+99-443.0             quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+100-443.0            quic                         quic                         quic                         quic                         quic                         non-quic                    
+101-443.0            non-quic                     quic                         quic                         quic                         quic                         non-quic                    
 102-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-103-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-104-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-105-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-106-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-107-1900.0           non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-108-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-109-53.0             quic                         non-quic                     quic                         non-quic                     quic                         non-quic                    
-110-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-111-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-112-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-113-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-114-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-115-53.0             quic                         quic                         quic                         non-quic                     quic                         non-quic                    
-116-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+103-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+104-443.0            non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+105-443.0            quic                         quic                         quic                         quic                         quic                         non-quic                    
+106-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
+107-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
+108-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+109-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+110-443.0            quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+111-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+112-57000.0          non-quic                     non-quic                     quic                         non-quic                     non-quic                     non-quic                    
+113-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+114-59289.0          non-quic                     non-quic                     quic                         non-quic                     quic                         non-quic                    
+115-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+116-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
 117-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-118-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-119-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-120-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-121-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-122-1900.0           non-quic                     quic                         quic                         quic                         quic                         non-quic                    
-123-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-124-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-125-53.0             non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
-126-53.0             quic                         non-quic                     quic                         non-quic                     quic                         non-quic                    
-127-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-128-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-129-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-130-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-131-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-132-5353.0           non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-133-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-134-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
-135-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
-136-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
-137-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
+118-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+119-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+120-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+121-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
+122-443.0            non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
+123-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+124-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
+125-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+126-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+127-443.0            quic                         quic                         quic                         quic                         quic                         non-quic                    
+128-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+129-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+130-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+131-53.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+132-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+133-443.0            non-quic                     quic                         non-quic                     quic                         quic                         non-quic                    
+134-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+135-53.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+136-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+137-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
 138-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
-139-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
-140-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
-141-5353.0           non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
-142-443.0            quic                         quic                         non-quic                     quic                         quic                         quic                        
-143-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-144-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-145-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-146-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-147-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-148-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-149-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-150-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-151-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-152-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-153-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-154-443.0            non-quic                     quic                         non-quic                     non-quic                     quic                         quic                        
-155-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-156-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-157-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-158-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+139-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
+140-443.0            non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+141-59730.0          non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+142-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+143-53.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+144-443.0            non-quic                     non-quic                     quic                         quic                         non-quic                     non-quic                    
+145-53.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
+146-443.0            quic                         non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+147-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
+148-56203.0          non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+149-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+150-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+151-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+152-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+153-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+154-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+155-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+156-53.0             quic                         quic                         quic                         quic                         quic                         non-quic                    
+157-19305.0          quic                         non-quic                     quic                         quic                         non-quic                     non-quic                    
+158-53.0             non-quic                     quic                         quic                         quic                         quic                         non-quic                    
 159-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-160-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-161-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-162-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-163-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-164-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-165-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-166-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-167-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-168-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-169-443.0            non-quic                     quic                         quic                         quic                         quic                         quic                        
-170-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-171-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-172-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-173-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
-174-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+160-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+161-443.0            non-quic                     non-quic                     non-quic                     quic                         non-quic                     non-quic                    
+162-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+163-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
+164-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+165-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+166-53.0             quic                         non-quic                     quic                         quic                         quic                         non-quic                    
+167-443.0            quic                         quic                         quic                         quic                         quic                         quic                        
+168-443.0            quic                         quic                         non-quic                     quic                         non-quic                     non-quic                    
+169-443.0            quic                         quic                         non-quic                     non-quic                     non-quic                     non-quic                    
+170-443.0            non-quic                     non-quic                     non-quic                     non-quic                     non-quic                     non-quic                    
+171-443.0            non-quic                     non-quic                     quic                         non-quic                     non-quic                     non-quic                    
 
 Prediction miss count...
 
-Logistic_Regression_Model              96/175
-Gradient_Boosting_Classifier_Model     87/175
-Decision_Tree_Classifier_Model         43/175
-K_Neighbors_Classifier_Model           84/175
-Random_Forest_Classifier_Model         39/175
+Logistic_Regression_Model              80/172
+Gradient_Boosting_Classifier_Model     83/172
+Decision_Tree_Classifier_Model         44/172
+K_Neighbors_Classifier_Model           88/172
+Random_Forest_Classifier_Model         41/172

@@ -29,9 +29,9 @@ def preprocess(df):
     df.dropna(axis=0, inplace=True)
     print("Dropped NA values...", df.size)
 
-    # 4. After deleting the rows, reset the index column and delete it.
-    df.reset_index(drop=True)
-    print("Resetting index...", df.size)
+    # 4. After deleting the rows, shuffle and delete the index column.
+    df = df.sample(frac=1).reset_index(drop=True)
+    print("Shuffling Resetting index...", df.size)
 
     # 5. Get the result(quic) column values and remove dataset.
     targets = list(df["Target"].values)
@@ -51,8 +51,9 @@ def is_quic(packet):
 if __name__ == "__main__":
 
     dataset = pd.read_csv(DATASET_FILE_PATH)
+    print("Dataset preprocess ...\n")
     X_test, Y_test = preprocess(dataset)
-    print("Dataset preprocess completed...\n")
+    print("\nDataset preprocess completed...\n")
 
     logistic_regression_path = os.path.join("models", "LogisticRegression")
     gradient_boosting_classifier_path = os.path.join("models", "GradientBoost")
@@ -60,6 +61,7 @@ if __name__ == "__main__":
     k_neighbors_classifier_path = os.path.join("models", "KNN")
     random_forest_classifier_path = os.path.join("models", "RandomForest")
 
+    print("Loading trained models...\n")
     logistic_regression_model = joblib.load(logistic_regression_path)
     gradient_boosting_classifier_model = joblib.load(gradient_boosting_classifier_path)
     decision_tree_classifier_model = joblib.load(decision_tree_classifier_path)
